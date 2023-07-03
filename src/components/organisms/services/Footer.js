@@ -10,13 +10,13 @@ import TextLinks from '../../atom/TextLinks'
 
 const Footer = () => {
   return (
-    <footer className='pad'>
+    <footer className='pad mt-24'>
         <div className='flex flex-col lg:flex-row gap-10 justify-between'>
       <div className='lg:w-1/2'>
         <div className='w-72'>
             <Image src={logo} className=""/>
         </div>
-        <Text className="txtdark py-4" children="Kunden Services Ltd is a leading consulting firm operating in Nigeria, The United Kingdom, and United States of America specializing in financial services in support of business transactions, investment, and development."/>
+        <Text className="txtdark py-4 font-light" children="Kunden Services Ltd is a leading consulting firm operating in Nigeria, The United Kingdom, and United States of America specializing in financial services in support of business transactions, investment, and development."/>
         <div className='flex gap-4'>
             <TextLinks to="#" children={<div className='w-6'><Image src={inst}/></div>} />
             <TextLinks to="#" children={<div className='w-6'><Image src={face}/></div>} />
@@ -53,13 +53,13 @@ const Footer = () => {
         </div>
         </div>
         </div>
-        <hr className='mt-8 lg:mt-16 mb-8 bgdark'/>
+        <hr className='mt-8 lg:mt-16 mb-8 bg'/>
         <div className='grid grid-flow-row md:grid-cols-2 txtpurple2 pb-4 lg:pb-0'>
-            <div className=''>
-                <p><span className='font-medium'>NGA</span> Quarter 54, Alagbaka GRA Akure, Ondo State, Nigeria</p>
-                <p><span className='font-medium'>USA</span> 1702 Todds Lane Suite 237 Hampton Virginia 23669</p>
+            <div className='lg:text-lg'>
+                <p><span className='font-medium pe-2 text-lg lg:text-xl'>NGA</span> Quarter 54, Alagbaka GRA Akure, Ondo State, Nigeria</p>
+                <p><span className='font-medium pe-2 text-lg lg:text-xl'>USA</span> 1702 Todds Lane Suite 237 Hampton Virginia 23669</p>
             </div>
-            <div className='font-medium text-center lg:text-right'>Copyright 2023- All Rights Reserved</div>
+            <div className='font-bold text-center pt-4 lg:pt-0 lg:text-right'>Copyright 2023- All Rights Reserved</div>
         </div>
     </footer>
   )

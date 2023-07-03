@@ -5,7 +5,7 @@ import serv from '../../../images/Group 33.png'
 
 const Headerserv = () => {
   return (
-    <div className='pad grid grid-flow-row lg:grid-cols-2 items-center'>
+    <div className='pad grid grid-flow-row lg:grid-cols-2 items-center lg:my-10'>
       <div className=''>
         <Text className="text-service text-center lg:text-start pb-4 lg:pb-0" children="Our Services"/>
       </div>

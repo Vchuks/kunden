@@ -54,14 +54,14 @@ const HeaderInfo = () => {
     ]
     const headL = headList.map(each=>{
         return <div key={each.id} className='my-6'>
-            <Text className="solution w-max" children={each.title}/>
-            <pre className="txtdark text-justify lg:text-lg py-4">{each.text}</pre>
+            <Text className="solution w-fit lg:text-3xl" children={each.title}/>
+            <pre className="txtdark text-justify font-light lg:text-lg py-4">{each.text}</pre>
         </div>
     })
   return (
     <div className='pb-10'>
       <div><Image src={pict}/></div>
-      <div className='pad'>
+      <div className='pad my-8'>
       {headL}
       </div>
     </div>

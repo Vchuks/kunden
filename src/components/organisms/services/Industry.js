@@ -7,11 +7,11 @@ const Industry = () => {
   return (
     <div className="pad bgpurple ind">
       <Text
-        className="text-service text-ind pt-8"
+        className="text-service text-ind pt-14 lg:pt-0"
         children="Industries that we serve."
       />
       <Text
-        className="text-white text-ind2 lg:text-2xl font-light text-justify"
+        className="text-white text-ind2 lg:text-2xl font-extralight text-justify"
         children="We invest in Africa's strategic sectors that provide strong, long-term returns and have the ability to move Africa's economy forward."
       />
       <div className="lg:w-10/12 flex flex-col lg:flex-row text-justify  text-white gap-4 lg:gap-20 pt-10 pb-20">
@@ -28,7 +28,7 @@ const Industry = () => {
                 />
               </div>
               <Text
-                className="lg:text-lg font-light "
+                className="lg:text-lg font-extralight "
                 children="Banking and Finance explores the dynamic, fast-paced world of money, shares, credit and investments. We provide the liquidity in terms of money or assets required for individuals and businesses to invest for the future."
               />
             </div>
@@ -45,7 +45,7 @@ const Industry = () => {
                 />
               </div>
               <Text
-                className="lg:text-lg font-light "
+                className="lg:text-lg font-extralight "
                 children="Information technology is an essential partner in management of your business, regardless of the kind of enterprise you operate. We are skilled with the necessities of information technology."
               />
             </div>
@@ -62,7 +62,7 @@ const Industry = () => {
                 />
               </div>
               <Text
-                className="lg:text-lg font-light "
+                className="lg:text-lg font-extralight "
                 children="We have a united set of operations team that begin with product design, planning, selecting materials or commodities, manufacturing methods, guaranteeing quality control, and implementing corporate administration and sales."
               />
             </div>
@@ -81,7 +81,7 @@ const Industry = () => {
                 />
               </div>
               <Text
-                className="lg:text-lg font-light "
+                className="lg:text-lg font-extralight "
                 children="Telecommunications is an important tool for businesses. We are able to communicate effectively with customers and deliver high standards of customer service."
               />
             </div>
@@ -98,7 +98,7 @@ const Industry = () => {
                 />
               </div>
               <Text
-                className="lg:text-lg font-light "
+                className="lg:text-lg font-extralight "
                 children="As a successful corporate enterprise, we do not only bring fun to our customers, but also promote sharing, networking and interaction among our beneficiaries."
               />
             </div>
@@ -115,7 +115,7 @@ const Industry = () => {
                 />
               </div>
               <Text
-                className="lg:text-lg font-light "
+                className="lg:text-lg font-extralight "
                 children="We optimize training and consultation by assessing an organization's existing training resources and developing a program that addresses skills gaps and business goals."
               />
             </div>

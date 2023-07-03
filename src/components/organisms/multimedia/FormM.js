@@ -31,6 +31,11 @@ const FormM = () => {
         </div>
         <div className="form-inp mb-6 py-1">
             <select className=" rounded-md outline-purple-950 w-full px-4 py-3 lg:py-4 txtdark">
+                <option className="">Date(DD/MM/YY)*</option>
+            </select>
+        </div>
+        <div className="form-inp mb-6 py-1">
+            <select className=" rounded-md outline-purple-950 w-full px-4 py-3 lg:py-4 txtdark">
                 <option className="">Time*</option>
             </select>
         </div>

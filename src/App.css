@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500&display=swap');
 
 *{
   padding: 0;
@@ -17,6 +17,8 @@ body{
 }
 .padnav{
   padding: 1.5rem 5rem;
+  background: rgba(255, 255, 255, 0.50);
+backdrop-filter: blur(15px);
 }
 .pad{
   padding: 2rem 5rem;
@@ -43,12 +45,22 @@ body{
 .bgdark{
   background-color: #443F46;
 }
+.bg{
+  border: 1px solid #443F46;
+  border-top: 0;
+}
 .navbar{
   position: sticky;
   top: 0;
 }
 .text-service{
-  width: 95%;
+  width: 100%;
+  font-family: Lenora Premium;
+  color: #1D0128;
+  font-size: 45px;
+}
+.text-service2{
+  /* width: 100%; */
   font-family: Lenora Premium;
   color: #1D0128;
   font-size: 45px;
@@ -78,7 +90,7 @@ body{
   height: 100px;
 }
 .multi-text{
-  width: 70%;
+  width: 75%;
 }
 .sun{
   z-index: 1;
@@ -87,6 +99,7 @@ body{
   background: linear-gradient(to right, rgb(110, 16, 146), rgb(110, 16, 146,0.8)), url("./images/Group\ 39.png");
   background-repeat: no-repeat;
   background-position: top right;
+  padding: 7rem 5rem;
   /* background-size:inherit; */
 }
 .text-ind{
@@ -95,6 +108,9 @@ body{
 }
 .text-ind2{
   width: 750px;
+}
+.servtext{
+  font-size: 28px;
 }
 .radio{
   box-shadow: 0px 19px 40px 2px #E6A6FF;
@@ -120,6 +136,9 @@ pre{
 .form-inp input::placeholder, textarea::placeholder{
   color: #443F46;
 }
+.global{
+  z-index: 0;
+}
 
 /* @media (min-width:700px)  {
   .pad, .padnav{
@@ -138,13 +157,21 @@ pre{
     margin: auto;
     font-size: 25px;
   }
+  .text-service2{
+    margin: auto;
+    font-size: 25px;
+  }
   .line{
     height: 70px;
   }
   .multi-text{
-    width: 100%;
+    width: 70%;
+    margin-left: 0;
   }
   .text-ind2, .text-ind{
     width: 100%;
+  }
+  .servtext{
+    font-size: 20px;
   }
 }

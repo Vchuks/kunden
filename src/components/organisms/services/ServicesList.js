@@ -5,7 +5,7 @@ import Text from "../../atom/Text";
 
 const ServicesList = () => {
   return (
-    <div className="pad pady grid grid-col-1 lg:grid-cols-2 gap-10 lg:gap-4 items-center">
+    <div className="pad pady grid grid-col-1 lg:grid-cols-2 gap-20 lg:gap-4 items-center mt-10 mb-24">
       <div>
         <Image src={servleft} />
       </div>
@@ -13,66 +13,81 @@ const ServicesList = () => {
         <Text className="solution w-max text-xl lg:text-3xl" children="Our Services" />
         <div className="pt-10 ">
           <div className="py-3">
-            <div className="flex font-medium gap-8 text-lg lg:text-2xl">
+            <div className="flex font-medium gap-8 text-lg servtext">
               <Text className="txtpurple" children="01" />
               <Text className="txtpurple2" children="E-Payment Services" />
             </div>
             <div className="flex gap-10 lg:gap-11 pt-2 ps-3">
+              <div>
+
               <Text className="bgpurple h-auto line" children="" />
+              </div>
               <Text
-                className="txtdark lg:text-lg"
+                className="txtdark font-light lg:text-xl "
                 children="We provide electronic payment solutions to organizations, government, companies and industries across Nigeria and beyond."
               />
             </div>
           </div>
           <div className="py-3">
-            <div className="flex font-medium gap-8 text-lg lg:text-2xl">
+            <div className="flex font-medium gap-8 text-lg servtext">
               <Text className="txtpurple" children="02" />
               <Text className="txtpurple2" children="Financial Management Services" />
             </div>
             <div className="flex gap-10 lg:gap-11 pt-2 ps-3">
+              <div>
+
               <Text className="bgpurple h-auto line" children="" />
+              </div>
               <Text
-                className="txtdark lg:text-lg"
+                className="txtdark font-light lg:text-xl "
                 children="We provide strategic consulting services to financial institutions."
               />
             </div>
           </div>
           <div className="py-3">
-            <div className="flex font-medium gap-8 text-lg lg:text-2xl">
+            <div className="flex font-medium gap-8 text-lg servtext">
               <Text className="txtpurple" children="03" />
               <Text className="txtpurple2" children="Payment Card Scheme" />
             </div>
             <div className="flex gap-10 lg:gap-11 pt-2 ps-3">
+              <div>
+
               <Text className="bgpurple h-auto line" children="" />
+              </div>
               <Text
-                className="txtdark lg:text-lg"
+                className="txtdark font-light lg:text-xl "
                 children="We provide Safe, secure and reliable card payment scheme implementation."
               />
             </div>
           </div>
           <div className="py-3">
-            <div className="flex font-medium gap-8 text-lg lg:text-2xl">
+            <div className="flex font-medium gap-8 text-lg servtext">
               <Text className="txtpurple" children="04" />
               <Text className="txtpurple2" children="Value Added Services" />
             </div>
             <div className="flex gap-10 lg:gap-11 pt-2 ps-3">
+              <div>
+                
               <Text className="bgpurple h-auto line" children="" />
+              </div>
               <Text
-                className="txtdark lg:text-lg"
+                className="txtdark font-light lg:text-xl "
                 children="E-payment consulting services, payment cards Management, Business Management Service etc."
               />
             </div>
           </div>
           <div className="py-3">
-            <div className="flex font-medium gap-8 text-lg lg:text-2xl">
+            <div className="flex font-medium gap-8 text-lg servtext">
               <Text className="txtpurple" children="05" />
               <Text className="txtpurple2" children="Multimedia Services" />
             </div>
             <div className="flex gap-10 lg:gap-11 pt-2 ps-3">
+              <div>
+
               <Text className="bgpurple " children="" />
+              </div>
               <Text
-                className="txtdark lg:text-lg"
+                className="txtdark font-light lg:text-xl "
                 children="We provide a wide range of multimedia services that spans around photography, digital printing, music studio, cinematography and videography."
               />
             </div>
