@@ -9,17 +9,19 @@
 }
 body{
 
-  background-color: #FDF8FF;
+  background-color: #FFF;
 }
 @font-face {
   font-family: Lenora Premium;
   src: url("./font/64103e95b3ca5ab4ebf815b4f19e00f2.ttf");
 }
+
 .padnav{
   padding: 1.5rem 5rem;
   background: rgba(255, 255, 255, 0.50);
 backdrop-filter: blur(15px);
 }
+
 .pad{
   padding: 2rem 5rem;
 }
@@ -53,23 +55,27 @@ backdrop-filter: blur(15px);
   position: sticky;
   top: 0;
 }
+.leno{
+  font-family: Lenora Premium;
+
+}
 .text-service{
   width: 100%;
   font-family: Lenora Premium;
-  color: #1D0128;
-  font-size: 45px;
+  color: #ffffff;
+  font-size: 55px;
+line-height: 70px;
+
 }
 .text-service2{
-  /* width: 100%; */
   font-family: Lenora Premium;
-  color: #1D0128;
-  font-size: 45px;
+  color: #ffffff;
+  font-size: 55px;
 }
 .solution{
   font-family: Lenora Premium;
   position: relative;
   color: #D08F33;
-  z-index: -1;
 }
 .dot{
   color: #D08F33;
@@ -77,13 +83,12 @@ backdrop-filter: blur(15px);
 .solution:after {
   content: "";
   position: absolute;
-  height: 30px;
+  height: 20px;
   width: 100%;
   left: 0;
-  top: 90%;
+  top: 95%;
   border-top: 4px solid #D08F33;
-  border-radius: 50%;
-  
+  border-radius: 30%;
 }
 .line{
   width: 2px;
@@ -99,12 +104,16 @@ backdrop-filter: blur(15px);
   background: linear-gradient(to right, rgb(110, 16, 146), rgb(110, 16, 146,0.8)), url("./images/Group\ 39.png");
   background-repeat: no-repeat;
   background-position: top right;
-  padding: 7rem 5rem;
+  padding: 5rem;
   /* background-size:inherit; */
 }
 .text-ind{
-  width: 400px;
+  width: 520px;
   color: #ffffff;
+  font-family: Lenora Premium;
+  font-size: 60px;
+line-height: 70px;
+
 }
 .text-ind2{
   width: 750px;
@@ -122,7 +131,6 @@ pre{
   display: block;
   font-family: 'Outfit', sans-serif;
   white-space:pre-line;
-  margin: 1em 0;
 
 }
 .form-inp{
@@ -135,20 +143,106 @@ pre{
 }
 .form-inp input::placeholder, textarea::placeholder{
   color: #443F46;
+  font-size: 18px;
 }
 .global{
   z-index: 0;
 }
+.card-head{
+  font-size: 32px;
+  font-family: Lenora Premium;
+  text-align: center;
+}
+.world-text{
+  font-size: 70px;
+  font-family: Lenora Premium;
+  color: #1D0128;
+line-height: 80px;
 
-/* @media (min-width:700px)  {
+}
+.world-text span{
+  font-family: Lenora Premium;
+  color: #D08F33;
+}
+.found-one{
+  border-radius: 25px;
+  background: linear-gradient(197deg, #E7E7E7 13.02%, #BABABA 100%);
+}
+.found-two{
+  border-radius: 25px;
+}
+.found-text{
+font-family: Lenora Premium;
+font-size: 48px;
+line-height: 55px;
+}
+.found-text2{
+  width: 600px;
+}
+.about{
+  font-family: Lenora Premium;
+  color: #1D0128;
+  font-size: 50px;
+  line-height: 65px;
+}
+.journey-text{
+  font-size: 50px;
+}
+.pic-box{
+  width: 31%;
+}
+.text-car{
+    color: #ffffff;
+    font-family: Lenora Premium;
+    font-size: 50px;
+}
+.openn{
+  border-radius: 10px;
+border: 1px solid #443F46;
+background: rgba(110, 16, 146, 0.10);
+color: #272727;
+}
+.leadfaq{
+  line-height: 60px;
+}
+.faq-box{
+  border-radius: 5px;
+  border: 0.3px solid rgba(68, 63, 70, 0.70);
+  background: #FFF;
+  box-shadow: 2px 4px 20px 1px rgba(0, 0, 0, 0.10);
+  padding: 2rem;
+  margin: 1.5rem 0 ;
+}
+.faqtxt{
+  font-size: 23px;
+}
+
+
+@media (min-width:700px) and (max-width:997px) {
   .pad, .padnav{
-    padding: 5rem;
+    padding: 2rem;
   }
-} */
+  .text-service{
+    margin: auto;
+    font-size: 40px;
+  }
+  .text-service2{
+    margin: auto;
+    font-size: 40px;
 
-@media (max-width:996px) {
+  }
+  .pic-box{
+    width: 47%;
+  }
+  .journey-text, .text-car{
+    font-size: 30px;
+  }
+ 
+}
+
+@media (max-width:600px) {
   .pad, .padnav{
-    padding: 0.8rem;
+    padding: 1rem;
   }
   .mag{
     margin: 0.8rem;
@@ -156,10 +250,15 @@ pre{
   .text-service{
     margin: auto;
     font-size: 25px;
+    line-height: 40px;
+
   }
   .text-service2{
     margin: auto;
     font-size: 25px;
+  }
+  .card-head{
+    font-size: 22px;
   }
   .line{
     height: 70px;
@@ -168,10 +267,50 @@ pre{
     width: 70%;
     margin-left: 0;
   }
+  .text-ind{
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+
+  }
+  .text-car{
+    font-size: 25px;
+  }
   .text-ind2, .text-ind{
     width: 100%;
   }
   .servtext{
     font-size: 20px;
+  }
+  .world-text{
+    font-size: 27px;
+    line-height: 40px;
+
+  }
+  .found-text{
+    font-size: 27px;
+    line-height: 40px;
+
+  }
+  .about{
+    font-family: Lenora Premium;
+    color: #1D0128;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .journey-text{
+    font-size: 30px;
+  }
+  .pic-box{
+    width: 100%;
+  }
+  .faq-box{
+    padding: 1rem;
+  }
+  .faqtxt{
+    font-size: 16px;
+  }
+  .form-inp input::placeholder, textarea::placeholder{
+    font-size: 16px;
   }
 }

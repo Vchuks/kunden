@@ -4,12 +4,13 @@ import logo from '../../images/logo.png'
 import logosmall from '../../images/logo-small.png'
 import { NavLink } from 'react-router-dom'
 import hamnav from '../../images/quill_hamburger-sidebar.png'
+import TextLinks from '../atom/TextLinks'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const navStyle=({isActive})=>{
       return{  
-        color: "#383838",
+        color: isActive ? "#6E1092" : "#383838",
         fontSize:"20px",
         fontWeight:isActive ? 400: 300,
         // textShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)" 
@@ -25,14 +26,13 @@ const Navbar = () => {
   return (
     <div className='padnav z-10 flex navbar items-center justify-between relative '>
       <div className='w-52 lg:w-1/3'>
-        <Image src={logo} className=""/>
+        <TextLinks to="/" children={<Image src={logo} className=""/>} />
       </div>
-      <div className='hidden w-8/12 lg:flex gap-6 justify-end'>
+      <div className='hidden w-8/12 lg:flex gap-6 justify-center'>
         <NavLink to="/services" style={navStyle}>Services</NavLink>
-        <NavLink to="/a" style={navStyle}>Career</NavLink>
-        <NavLink to="/b" style={navStyle}>About Us</NavLink>
-        <NavLink to="/c" style={navStyle}>Contact Us</NavLink>
-        <NavLink to="/d" style={navStyle}>Alaafia Foundation</NavLink>
+        <NavLink to="/about" style={navStyle}>About Us</NavLink>
+        <NavLink to="/c" style={navStyle}>Blog</NavLink>
+        <NavLink to="/faq" style={navStyle}>FAQ</NavLink>
       </div>
       <div className='block lg:hidden' onClick={()=>setNav(!nav)}>
          <Image src={hamnav} className="w-8 cursor-pointer"/> 
@@ -44,10 +44,9 @@ const Navbar = () => {
         </div>
         <div className='flex flex-col gap-5'>
         <NavLink to="/services" className="nav" style={navStyle2}>Services</NavLink>
-        <NavLink to="#" className="nav" style={navStyle2}>Career</NavLink>
-        <NavLink to="#" className="nav" style={navStyle2}>About Us</NavLink>
-        <NavLink to="#" className="nav" style={navStyle2}>Contact Us</NavLink>
-        <NavLink to="#" className="nav" style={navStyle2}>Alaafia Foundation</NavLink>
+        <NavLink to="/about" className="nav" style={navStyle2}>About Us</NavLink>
+        <NavLink to="/c" className="nav" style={navStyle2}>Blog</NavLink>
+        <NavLink to="/faq" className="nav" style={navStyle2}>FAQ</NavLink>
         </div>
         <div className='mt-auto pb-8' style={{color:"rgba(245, 219, 255, 0.58)"}}><p className='font-thin text-xs'>Kunden Services Ltd is a leading consulting firm operating in Nigeria, The United Kingdom, and United States of America specializing in financial services in support of business transactions, investment, and development.</p></div>
       </div>

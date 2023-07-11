@@ -1,6 +1,4 @@
 import React from 'react'
-import Image from '../../atom/Image'
-import pict from '../../../images/Frame 6.png'
 import Text from '../../atom/Text'
 
 const HeaderInfo = () => {
@@ -55,12 +53,12 @@ const HeaderInfo = () => {
     const headL = headList.map(each=>{
         return <div key={each.id} className='my-6'>
             <Text className="solution w-fit lg:text-3xl" children={each.title}/>
-            <pre className="txtdark text-justify font-light lg:text-lg py-4">{each.text}</pre>
+            <pre className="txtdark text-justify font-light lg:text-xl py-6 lg:py-8">{each.text}</pre>
         </div>
     })
   return (
     <div className='pb-10'>
-      <div><Image src={pict}/></div>
+      <div className='bgpurple h-52 lg:h-72 flex items-end pad'><p className='text-white leno text-3xl lg:text-5xl '>Our Services</p></div>
       <div className='pad my-8'>
       {headL}
       </div>

@@ -13,16 +13,16 @@ import pic8 from '../../../images/ZLGA LOGO 1.png'
 const Partners = () => {
   return (
     <div className='pad bg-white'>
-      <Text className="solution global w-max m-auto text-xl lg:text-3xl pt-10 lg:pt-20" children="Our Global Partners"/>
-      <div className='py-14 pb-20 flex gap-x-12 lg:gap-x-20 gap-y-10 flex-shrink-0 flex-grow-0 flex-wrap items-center justify-center'>
-        <div className='w-16 lg:w-36'><Image src={pic1} className="w-full"/> </div>
-        <div className='w-16 lg:w-36'><Image src={pic2} className="w-full"/> </div>
-        <div className='w-16 lg:w-36'><Image src={pic3} className="w-full"/> </div>
-        <div className='w-16 lg:w-36'><Image src={pic4} className="w-full"/> </div>
-        <div className='w-16 lg:w-36'><Image src={pic5} className="w-full"/> </div>
-        <div className='w-16 lg:w-36'><Image src={pic6} className="w-full"/> </div>
-        <div className='w-16 lg:w-36'><Image src={pic7} className="w-full"/> </div>
-        <div className='w-16 lg:w-36'><Image src={pic8} className="w-full"/> </div>
+      <Text className="solution global w-max m-auto text-xl lg:text-3xl lg:pt-20" children="Our Global Partners"/>
+      <div className='pt-14 lg:pb-14 flex gap-x-12 lg:gap-x-20 gap-y-10 flex-shrink-0 flex-grow-0 flex-wrap items-center justify-center'>
+        <div className='w-16 lg:w-22'><Image src={pic1} className="w-full"/> </div>
+        <div className='w-16 lg:w-22'><Image src={pic2} className="w-full"/> </div>
+        <div className='w-16 lg:w-22'><Image src={pic3} className="w-full"/> </div>
+        <div className='w-16 lg:w-22'><Image src={pic4} className="w-full"/> </div>
+        <div className='w-16 lg:w-22'><Image src={pic5} className="w-full"/> </div>
+        <div className='w-16 lg:w-22'><Image src={pic6} className="w-full"/> </div>
+        <div className='w-16 lg:w-22'><Image src={pic7} className="w-full"/> </div>
+        <div className='w-16 lg:w-22'><Image src={pic8} className="w-full"/> </div>
       </div>
     </div>
   )

@@ -7,16 +7,13 @@ const Industry = () => {
   return (
     <div className="pad bgpurple ind">
       <Text
-        className="text-service text-ind pt-14 lg:pt-0"
+        className="text-ind pt-14 lg:pt-0"
         children="Industries that we serve."
       />
-      <Text
-        className="text-white text-ind2 lg:text-2xl font-extralight text-justify"
-        children="We invest in Africa's strategic sectors that provide strong, long-term returns and have the ability to move Africa's economy forward."
-      />
+      
       <div className="lg:w-10/12 flex flex-col lg:flex-row text-justify  text-white gap-4 lg:gap-20 pt-10 pb-20">
         <div className="lg:w-11/12 flex flex-col gap-4 justify-between">
-          <div>
+          <div className="py-2">
             <div>
               <div className="flex gap-4 items-center py-3">
                 <div className="w-6 lg:w-8">
@@ -33,7 +30,7 @@ const Industry = () => {
               />
             </div>
           </div>
-          <div>
+          <div className="py-2">
             <div>
               <div className="flex gap-4 items-center py-3">
                 <div className="w-6 lg:w-8">
@@ -50,7 +47,7 @@ const Industry = () => {
               />
             </div>
           </div>
-          <div>
+          <div className="py-2">
             <div>
               <div className="flex gap-4 items-center py-3">
                 <div className="w-6 lg:w-8">
@@ -68,8 +65,8 @@ const Industry = () => {
             </div>
           </div>
         </div>
-        <div className="lg:w-10/12 flex flex-col gap-4 justify-between">
-          <div>
+        <div className="lg:w-10/12 flex flex-col gap-4 ">
+          <div className="py-2">
             <div>
               <div className="flex gap-4 items-center py-3">
                 <div className=" w-6 lg:w-8">
@@ -86,24 +83,8 @@ const Industry = () => {
               />
             </div>
           </div>
-          <div>
-            <div>
-              <div className="flex gap-4 items-center py-3">
-                <div className="w-6 lg:w-8">
-                  <Image src={box} />
-                </div>
-                <Text
-                  className="text-xl lg:text-2xl font-medium"
-                  children="Entertainment"
-                />
-              </div>
-              <Text
-                className="lg:text-lg font-extralight "
-                children="As a successful corporate enterprise, we do not only bring fun to our customers, but also promote sharing, networking and interaction among our beneficiaries."
-              />
-            </div>
-          </div>
-          <div>
+          
+          <div className="py-2">
             <div>
               <div className="flex gap-4 items-center py-3">
                 <div className="w-6 lg:w-8">
