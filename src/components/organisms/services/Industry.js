@@ -7,11 +7,16 @@ const Industry = () => {
   return (
     <div className="pad bgpurple ind">
       <Text
-        className="text-ind pt-14 lg:pt-0"
+        className="text-ind pt-10 lg:pt-0"
         children="Industries that we serve."
+        data-aos="zoom-in-up"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out"
       />
       
-      <div className="lg:w-10/12 flex flex-col lg:flex-row text-justify  text-white gap-4 lg:gap-20 pt-10 pb-20">
+      <div className="lg:w-10/12 flex flex-col lg:flex-row text-justify  text-white gap-4 lg:gap-20 pt-6 pb-20" data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out">
         <div className="lg:w-11/12 flex flex-col gap-4 justify-between">
           <div className="py-2">
             <div>

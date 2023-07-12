@@ -11,8 +11,10 @@ const Faq = () => {
   });
   return (
     <>
-      <div className="flex flex-col lg:flex-row pad bgpurple items-center gap-6 lg:gap-0">
-        <div className="w-full pt-6 md:text-center lg:text-left lg:pt-20">
+      <div className="flex flex-col lg:flex-row pad bgpurple items-center gap-6 lg:gap-0" >
+        <div className="w-full pt-6 md:text-center lg:text-left lg:pt-20" data-aos="zoom-in-down"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out">
           <p className="text-car leadfaq">Frequently Asked Questions</p>
           <Text
             className="text-lg lg:text-2xl font-extralight py-2 text-white"

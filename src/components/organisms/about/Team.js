@@ -13,7 +13,9 @@ const Team = () => {
       <Text className="leno dot journey-text" children="The Team" />
       <Text className="textdark text-xl lg:text-3xl" children="Leadership" />
       <div className="flex flex-wrap gap-8 lg:gap-6 mb-10 lg:mb-24 justify-between lg:justify-normal pt-14">
-        <div className="pic-box">
+        <div className="pic-box" data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out">
           <Image src={pica} className="w-full" />
           <Text
             className="txtpurple2 lg:text-2xl font-medium pt-3 lg:pt-6 lg:pb-2"
@@ -21,7 +23,9 @@ const Team = () => {
           />
           <Text className="textdark lg:text-2xl" children="CEO/MD" />
         </div>
-        <div className="pic-box">
+        <div className="pic-box" data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out">
           <Image src={picb} className="w-full" />
           <Text
             className="txtpurple2 lg:text-2xl font-medium pt-3 lg:pt-6 lg:pb-2"
@@ -29,7 +33,9 @@ const Team = () => {
           />
           <Text className="textdark lg:text-2xl" children="Deputy MD" />
         </div>
-        <div className="pic-box">
+        <div className="pic-box" data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out">
           <Image src={picc} className="w-full" />
           <Text
             className="txtpurple2 lg:text-2xl font-medium pt-3 lg:pt-6 lg:pb-2"
@@ -37,7 +43,9 @@ const Team = () => {
           />
           <Text className="textdark lg:text-2xl" children="Head of HR" />
         </div>
-        <div className="pic-box lg:pt-20">
+        <div className="pic-box lg:pt-20" data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out">
           <Image src={picd} className="w-full" />
           <Text
             className="txtpurple2 lg:text-2xl font-medium pt-3 lg:pt-6 lg:pb-2"
@@ -45,7 +53,9 @@ const Team = () => {
           />
           <Text className="textdark lg:text-2xl" children="Head of Research and Documentation" />
         </div>
-        <div className="pic-box lg:pt-20">
+        <div className="pic-box lg:pt-20" data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out">
           <Image src={pice} className="w-full" />
           <Text
             className="txtpurple2 lg:text-2xl font-medium pt-3 lg:pt-6 lg:pb-2"

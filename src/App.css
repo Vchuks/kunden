@@ -1,5 +1,6 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap');
 
 *{
   padding: 0;
@@ -8,14 +9,15 @@
   font-family: 'Outfit', sans-serif;
 }
 body{
-
   background-color: #FFF;
 }
-@font-face {
+/* @font-face {
   font-family: Lenora Premium;
   src: url("./font/64103e95b3ca5ab4ebf815b4f19e00f2.ttf");
+} */
+a:hover{
+  color:#6E1092;
 }
-
 .padnav{
   padding: 1.5rem 5rem;
   background: rgba(255, 255, 255, 0.50);
@@ -56,24 +58,24 @@ backdrop-filter: blur(15px);
   top: 0;
 }
 .leno{
-  font-family: Lenora Premium;
+  font-family: 'Karla', sans-serif;
 
 }
 .text-service{
   width: 100%;
-  font-family: Lenora Premium;
+  font-family: 'Karla', sans-serif;
   color: #ffffff;
   font-size: 55px;
 line-height: 70px;
 
 }
 .text-service2{
-  font-family: Lenora Premium;
+  font-family: 'Karla', sans-serif;
   color: #ffffff;
   font-size: 55px;
 }
 .solution{
-  font-family: Lenora Premium;
+  font-family: 'Karla', sans-serif;
   position: relative;
   color: #D08F33;
 }
@@ -110,9 +112,9 @@ line-height: 70px;
 .text-ind{
   width: 520px;
   color: #ffffff;
-  font-family: Lenora Premium;
+  font-family: 'Karla', sans-serif;
   font-size: 60px;
-line-height: 70px;
+  line-height: 70px;
 
 }
 .text-ind2{
@@ -150,18 +152,18 @@ pre{
 }
 .card-head{
   font-size: 32px;
-  font-family: Lenora Premium;
+  font-family: 'Karla', sans-serif;
   text-align: center;
 }
 .world-text{
   font-size: 70px;
-  font-family: Lenora Premium;
+  font-family: 'Karla', sans-serif;
   color: #1D0128;
 line-height: 80px;
 
 }
 .world-text span{
-  font-family: Lenora Premium;
+  font-family: 'Karla', sans-serif;
   color: #D08F33;
 }
 .found-one{
@@ -172,15 +174,15 @@ line-height: 80px;
   border-radius: 25px;
 }
 .found-text{
-font-family: Lenora Premium;
-font-size: 48px;
-line-height: 55px;
+  font-family: 'Karla', sans-serif;
+  font-size: 48px;
+  line-height: 55px;
 }
 .found-text2{
   width: 600px;
 }
 .about{
-  font-family: Lenora Premium;
+  font-family: 'Karla', sans-serif;
   color: #1D0128;
   font-size: 50px;
   line-height: 65px;
@@ -193,7 +195,7 @@ line-height: 55px;
 }
 .text-car{
     color: #ffffff;
-    font-family: Lenora Premium;
+    font-family: 'Karla', sans-serif;
     font-size: 50px;
 }
 .openn{
@@ -268,10 +270,9 @@ color: #272727;
     margin-left: 0;
   }
   .text-ind{
-    font-size: 25px;
+    font-size: 30px;
     line-height: 40px;
     text-align: center;
-
   }
   .text-car{
     font-size: 25px;
@@ -293,7 +294,7 @@ color: #272727;
 
   }
   .about{
-    font-family: Lenora Premium;
+    font-family: 'Karla', sans-serif;
     color: #1D0128;
     font-size: 30px;
     line-height: 40px;
@@ -312,5 +313,8 @@ color: #272727;
   }
   .form-inp input::placeholder, textarea::placeholder{
     font-size: 16px;
+  }
+  .leadfaq{
+    line-height: 40px;
   }
 }

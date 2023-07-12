@@ -58,7 +58,9 @@ const HeaderInfo = () => {
     })
   return (
     <div className='pb-10'>
-      <div className='bgpurple h-52 lg:h-72 flex items-end pad'><p className='text-white leno text-3xl lg:text-5xl '>Our Services</p></div>
+      <div className='bgpurple h-52 lg:h-72 flex items-end pad'><p className='text-white leno text-3xl lg:text-5xl ' data-aos="zoom-in-down"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out">Our Services</p></div>
       <div className='pad my-8'>
       {headL}
       </div>

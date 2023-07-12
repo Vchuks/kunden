@@ -13,8 +13,12 @@ import pic8 from '../../../images/ZLGA LOGO 1.png'
 const Partners = () => {
   return (
     <div className='pad bg-white'>
-      <Text className="solution global w-max m-auto text-xl lg:text-3xl lg:pt-20" children="Our Global Partners"/>
-      <div className='pt-14 lg:pb-14 flex gap-x-12 lg:gap-x-20 gap-y-10 flex-shrink-0 flex-grow-0 flex-wrap items-center justify-center'>
+      <Text className="solution global w-max m-auto text-xl lg:text-3xl lg:pt-20" children="Our Global Partners" data-aos="zoom-in-down"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out"/>
+      <div data-aos="zoom-in-down"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out" className='pt-14 lg:pb-14 flex gap-x-12 lg:gap-x-20 gap-y-10 flex-shrink-0 flex-grow-0 flex-wrap items-center justify-center'>
         <div className='w-16 lg:w-22'><Image src={pic1} className="w-full"/> </div>
         <div className='w-16 lg:w-22'><Image src={pic2} className="w-full"/> </div>
         <div className='w-16 lg:w-22'><Image src={pic3} className="w-full"/> </div>

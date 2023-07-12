@@ -38,10 +38,9 @@ const Footer = () => {
         <div className=''>
         <Text className="txtpurple2 font-medium text-lg" children="Resources"/>
             <div className='pt-3 flex flex-col gap-3'>
-                <TextLinks to="#" className="txtdark font-light" children="Media"/>
                 <TextLinks to="/faq" className="txtdark font-light" children="FAQs"/>
                 <TextLinks to="#" className="txtdark font-light" children="Blog"/>
-                <TextLinks to="#" className="txtdark font-light" children="Got a Suggestion?"/>
+                <TextLinks to="/contact" className="txtdark font-light" children="Got a Suggestion?"/>
             </div>
         </div>
         <div className=''>
