@@ -3,6 +3,8 @@ import Text from "../../atom/Text";
 import Image from "../../atom/Image";
 // import TextLinks from '../../atom/TextLinks'
 import rate from '../../../images/rate.png'
+import { Player } from '@lottiefiles/react-lottie-player';
+import cardlot from '../../../images/card anime 1.json'
 
 const HeaderService = () => {
   return (
@@ -28,7 +30,14 @@ const HeaderService = () => {
         </div>
       </div>
       <div className="w-8/12 flex justify-between">
-        
+      <Player
+  autoplay
+  loop
+  src={cardlot}
+  style={{ height: '100%', width: '100%' }}
+>
+  {/* <Controls visible={true} buttons={['play', 'repeat', 'frame', 'debug']} /> */}
+</Player>
       </div>
     </div>
     
