@@ -3,7 +3,7 @@ import Text from "../../atom/Text";
 import Image from "../../atom/Image";
 // import TextLinks from '../../atom/TextLinks'
 import rate from "../../../images/rate.png";
-import { Player } from "@lottiefiles/react-lottie-player";
+// import { Player } from "@lottiefiles/react-lottie-player";
 import cardlot from "../../../images/Group 49.png";
 
 const HeaderService = () => {
