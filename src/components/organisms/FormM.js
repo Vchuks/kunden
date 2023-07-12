@@ -28,21 +28,21 @@ const FormM = () => {
             <Input
               type="text"
               placeholder="Full Name*"
-              className=" outline-purple-950 w-full px-4 py-3 lg:py-5 "
+              className=" outline-purple-800 w-full px-4 py-3 lg:py-5 "
             />
           </div>
           <div className="form-inp mb-6">
             <Input
               type="text"
               placeholder="Phone Number"
-              className=" outline-purple-950 w-full px-4 py-3 lg:py-5 "
+              className=" outline-purple-800 w-full px-4 py-3 lg:py-5 "
             />
           </div>
           <div className="form-inp mb-6">
             <Input
               type="email"
               placeholder="Email*"
-              className=" outline-purple-950 w-full px-4 py-3 lg:py-5 "
+              className=" outline-purple-800 w-full px-4 py-3 lg:py-5 "
             />
           </div>
 
@@ -51,7 +51,7 @@ const FormM = () => {
               placeholder="Type your message"
               cols=""
               rows="5"
-              className=" rounded-md outline-purple-950 w-full px-4 py-3 lg:py-4 "
+              className=" rounded-md outline-purple-800 w-full px-4 py-3 lg:py-4 "
             ></textarea>
           </div>
           <TextLinks
@@ -78,7 +78,7 @@ const FormM = () => {
         </div>
         <div className="flex gap-4 py-4">
           <TextLinks
-            to="#"
+            to="https://instagram.com/kundenservicesltd?igshid=MzRlODBiNWFlZA"
             children={
               <div className="w-8">
                 <Image src={inst} />
@@ -86,7 +86,7 @@ const FormM = () => {
             }
           />
           <TextLinks
-            to="#"
+            to="https://www.facebook.com/ePaymentsnigeria?mibextid=LQQJ4d"
             children={
               <div className="w-8">
                 <Image src={face} />
@@ -94,7 +94,7 @@ const FormM = () => {
             }
           />
           <TextLinks
-            to="#"
+            to="https://twitter.com/kundenservices?s=21&t=94rEvPMvmhbrkHhbgMl0FA"
             children={
               <div className="w-8">
                 <Image src={twit} />
@@ -102,7 +102,7 @@ const FormM = () => {
             }
           />
           <TextLinks
-            to="#"
+            to="https://youtube.com/@zlglobalalliance4043"
             children={
               <div className="w-8">
                 <Image src={yout} />

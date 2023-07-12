@@ -18,10 +18,10 @@ const Footer = () => {
         </div>
         <Text className="txtdark py-4 lg:text-lg font-light" children="Kunden Services Ltd is a leading consulting firm operating in Nigeria, The United Kingdom, and United States of America specializing in financial services in support of business transactions, investment, and development."/>
         <div className='flex gap-4'>
-            <TextLinks to="#" children={<div className='w-6'><Image src={inst}/></div>} />
-            <TextLinks to="#" children={<div className='w-6'><Image src={face}/></div>} />
-            <TextLinks to="#" children={<div className='w-6'><Image src={twit}/></div>} />
-            <TextLinks to="#" children={<div className='w-6'><Image src={yout}/></div>} />
+            <TextLinks to="https://instagram.com/kundenservicesltd?igshid=MzRlODBiNWFlZA" children={<div className='w-6'><Image src={inst}/></div>} />
+            <TextLinks to="https://www.facebook.com/ePaymentsnigeria?mibextid=LQQJ4d" children={<div className='w-6'><Image src={face}/></div>} />
+            <TextLinks to="https://twitter.com/kundenservices?s=21&t=94rEvPMvmhbrkHhbgMl0FA" children={<div className='w-6'><Image src={twit}/></div>} />
+            <TextLinks to="https://youtube.com/@zlglobalalliance4043" children={<div className='w-6'><Image src={yout}/></div>} />
         </div>
         </div>
         <div className='w-full grid grid-cols-2 md:grid-cols-3 justify-between gap-8 lg:gap-0'>
