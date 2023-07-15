@@ -5,7 +5,7 @@ const HeaderInfo = () => {
     const headList = [
         {
             id:1,
-            title:"E-PAYMENTS, E-WALLET",
+            title:"E-PAYMENT, E-WALLET",
             text:`Kunden Services offers comprehensive ePayment solutions and services suite across the whole ePayment chain. We are here to make your epayments simple and secure.
 
             Create your Payments, e-Wallet to receive and make cross-border payments. Save money, make instant mass payouts and access your funds anywhere in the world.

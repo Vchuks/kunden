@@ -3,8 +3,8 @@ import Text from "../../atom/Text";
 import Image from "../../atom/Image";
 // import TextLinks from '../../atom/TextLinks'
 import rate from "../../../images/rate.png";
-// import { Player } from "@lottiefiles/react-lottie-player";
-import cardlot from "../../../images/Group 49.png";
+import { Player } from "@lottiefiles/react-lottie-player";
+import cardlot from "../../../images/card motion.json";
 
 const HeaderService = () => {
   return (
@@ -34,14 +34,14 @@ const HeaderService = () => {
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
           data-aos-anchor-placement="top-center">
-          {/* <Player
+          <Player
             autoplay
             loop
             src={cardlot}
             style={{ height: "100%", width: "100%" }}
           >
-          </Player> */}
-          <Image src={cardlot} className="h-38"/>
+          </Player>
+          {/* <Image src={cardlot} className="h-38"/> */}
         </div>
       </div>
     </>

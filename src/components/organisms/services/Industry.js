@@ -52,23 +52,7 @@ const Industry = () => {
               />
             </div>
           </div>
-          <div className="py-2">
-            <div>
-              <div className="flex gap-4 items-center py-3">
-                <div className="w-6 lg:w-8">
-                  <Image src={box} />
-                </div>
-                <Text
-                  className="text-xl lg:text-2xl font-medium"
-                  children="Manufacturing"
-                />
-              </div>
-              <Text
-                className="lg:text-lg font-extralight "
-                children="We have a united set of operations team that begin with product design, planning, selecting materials or commodities, manufacturing methods, guaranteeing quality control, and implementing corporate administration and sales."
-              />
-            </div>
-          </div>
+          
         </div>
         <div className="lg:w-10/12 flex flex-col gap-4 ">
           <div className="py-2">
