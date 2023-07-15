@@ -31,10 +31,7 @@ const HeaderService = () => {
           </div>
         </div>
         <div className="w-full lg:w-8/12 flex justify-between" 
-        data-aos="fade-down"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-anchor-placement="top-center">
+        >
           <Player
             autoplay
             loop
