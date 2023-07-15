@@ -46,7 +46,7 @@ const Navbar = () => {
       <div className='block lg:hidden' onClick={()=>setNav(!nav)}>
          <Image src={hamnav} className="w-8 cursor-pointer"/> 
       </div>
-      {nav &&<div ref={sideref} className='w-full  h-screen lg:hidden sidebar flex flex-col gap-4 bgpurple px-4 pt-4 text-white absolute left-0 top-0'>
+      {nav &&<div ref={sideref} className='w-full an h-screen lg:hidden sidebar flex flex-col gap-4 bgpurple px-4 pt-4 text-white absolute left-0 top-0'>
         <div className='nav flex justify-between items-center py-3'>
           <Image src={logosmall} className=" w-64" />
           <div className='text-white w-10 cursor-pointer' onClick={()=>setNav(!nav)}><Image src={ex}/></div>

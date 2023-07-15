@@ -156,7 +156,7 @@ pre{
   text-align: center;
 }
 .world-text{
-  font-size: 70px;
+  font-size: 65px;
   font-family: 'Karla', sans-serif;
   color: #1D0128;
 line-height: 80px;
@@ -217,6 +217,15 @@ color: #272727;
 }
 .faqtxt{
   font-size: 23px;
+}
+
+@keyframes sidd {
+  0%{transform: translateY(-25%);}
+  
+  100%{transform: translateY(0);}
+}
+.sidebar{
+  animation: sidd 1s;
 }
 
 

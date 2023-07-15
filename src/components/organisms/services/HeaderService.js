@@ -30,10 +30,8 @@ const HeaderService = () => {
             <Image src={rate} />
           </div>
         </div>
-        <div className="w-full lg:w-8/12 flex justify-between" data-aos="fade-down"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-anchor-placement="top-center">
+        <div className="w-full lg:w-8/12 flex justify-between" 
+        >
           <Player
             autoplay
             loop

@@ -11,7 +11,7 @@ const Cards = () => {
       <div className="py-14 lg:py-28 flex flex-col lg:flex-row gap-14">
         <div
           className="card-one"
-          data-aos="flip-up"
+          data-aos="fade-down"
           data-aos-duration="2000"
           data-aos-easing="ease-in-out"
         >
@@ -29,7 +29,7 @@ const Cards = () => {
         </div>
         <div
           className="card-two"
-          data-aos="flip-up"
+          data-aos="fade-down"
           data-aos-duration="2000"
           data-aos-easing="ease-in-out"
         >
@@ -44,7 +44,7 @@ const Cards = () => {
         </div>
         <div
           className="card-three"
-          data-aos="flip-up"
+          data-aos="fade-down"
           data-aos-duration="2000"
           data-aos-easing="ease-in-out"
         >
