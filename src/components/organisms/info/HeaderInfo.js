@@ -26,7 +26,7 @@ const HeaderInfo = () => {
         },
         {
             id:4,
-            title:"FRAUD MANAGEMENT",
+            title:"FRAUD DETECTION",
             text:`Real-time scoring option to detect and block fraudulent online transactions through our newly fraud risk identification service.`
         },
         {
@@ -46,8 +46,8 @@ const HeaderInfo = () => {
         },
         {
             id:8,
-            title:"CASHLESS SYSTEM",
-            text:`Mobile banking, Internet banking, Electronic Payment. Digital transactions bring in better transparency, scalability and accountability.`
+            title:"MICRO LENDING & EMPOWERMENT SCHEMES",
+            text:`In Nigeria, microloans are swiftly making their way into conventional banks as well. This is due to the fact that microlending has consistently shown to be quite profitable. In order to aid Nigeria in achieving its aim of financial inclusion, the Central Bank of Nigeria has thrown its full weight behind microlending. At kunden, we help you with Microlending and Empowerment schemes.`
         },
     ]
     const headL = headList.map(each=>{

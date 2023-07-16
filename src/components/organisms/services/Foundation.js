@@ -10,7 +10,8 @@ import alaf from '../../../images/Group 46.png'
 const Foundation = () => {
   return (
     <div className='pad'>
-      <div className='w-11/12 m-auto md:w-full flex flex-col-reverse lg:flex-row items-center found-one px-4 py-10 lg:p-16 gap-10 lg:gap-0 mt-14 lg:mt-28' data-aos="flip-up"
+      <div className='w-11/12 m-auto md:w-full flex flex-col-reverse lg:flex-row items-center found-one px-4 py-10 lg:p-16 gap-10 lg:gap-0 mt-14 lg:mt-28' 
+      data-aos="fade-up"
           data-aos-duration="2000"
           data-aos-easing="ease-in-out">
         <div className='w-full'>
@@ -20,7 +21,7 @@ const Foundation = () => {
         </div>
         <div className='w-full'><Image src={zlg} className="w-4/5 lg:w-2/3 m-auto lg:mr-0 lg:ml-auto"/></div>
       </div>
-      <div className='w-11/12 m-auto md:w-full flex flex-col-reverse lg:flex-row items-center found-two bgpurple px-4 py-10 lg:p-16 mt-10 lg:mt-16 gap-10 lg:gap-0 mb-10' data-aos="flip-up"
+      <div className='w-11/12 m-auto md:w-full flex flex-col-reverse lg:flex-row items-center found-two bgpurple px-4 py-10 lg:p-16 mt-10 lg:mt-16 gap-10 lg:gap-0 mb-10' data-aos="fade-up"
           data-aos-duration="2000"
           data-aos-easing="ease-in-out">
         <div className='w-full'>

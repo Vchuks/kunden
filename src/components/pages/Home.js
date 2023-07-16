@@ -11,12 +11,12 @@ const Home = () => {
   return (
     <>
       <HeaderService />
+      <Partners />
       <Cards />
       <World />
       <Nipost/>
       <Industry />
       <Foundation />
-      <Partners />
     </>
   );
 };

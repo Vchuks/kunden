@@ -38,7 +38,7 @@ const Nipost = () => {
               className="text-lg md:text-2xl txtpurple"
               children="Learn More"
             />
-            <FaChevronRight className="txtpurple" />
+            <FaChevronRight className="text-sm lg:text-lg txtpurple" />
           </div>
         </div>
         <div className="w-full"  data-aos="fade-down"
@@ -59,7 +59,7 @@ const Nipost = () => {
             data-aos-easing="ease-in-out">
             <Text
               className="lg:w-3/4 m-auto font-medium txtpurple2 text-lg lg:text-3xl"
-              children="Youth Empowerment"
+              children="Financial Empowerment Schemes"
             />
             <Text
               className="lg:w-3/4 m-auto py-6 font-extralight txtdark text-lg lg:text-2xl"

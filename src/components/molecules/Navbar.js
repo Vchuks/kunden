@@ -40,7 +40,7 @@ const Navbar = () => {
         <NavLink to="/services" className="hov" style={navStyle} >Services</NavLink>
         <NavLink to="/about" className="hov" style={navStyle}>About Us</NavLink>
         <NavLink to="/contact" className="hov" style={navStyle}>Contact Us</NavLink>
-        <NavLink to="/c" className="hov" style={navStyle}>Blog</NavLink>
+        {/* <NavLink to="/c" className="hov" style={navStyle}>Blog</NavLink> */}
         <NavLink to="/faq" className="hov" style={navStyle}>FAQ</NavLink>
       </div>
       <div className='block lg:hidden' onClick={()=>setNav(!nav)}>
@@ -55,7 +55,7 @@ const Navbar = () => {
         <NavLink to="/services" className="nav" onClick={refresh}  style={navStyle2}>Services</NavLink>
         <NavLink to="/about" className="nav" onClick={refresh} style={navStyle2}>About Us</NavLink>
         <NavLink to="/contact" className="nav" onClick={refresh} style={navStyle2}>Contact Us</NavLink>
-        <NavLink to="/c" className="nav" onClick={refresh} style={navStyle2}>Blog</NavLink>
+        {/* <NavLink to="/c" className="nav" onClick={refresh} style={navStyle2}>Blog</NavLink> */}
         <NavLink to="/faq" className="nav" onClick={refresh} style={navStyle2}>FAQ</NavLink>
         </div>
         <div className='mt-auto pb-8' style={{color:"rgba(245, 219, 255, 0.58)"}}><p className='font-thin text-xs'>Kunden Services Ltd is a leading consulting firm operating in Nigeria, The United Kingdom, and United States of America specializing in financial services in support of business transactions, investment, and development.</p></div>

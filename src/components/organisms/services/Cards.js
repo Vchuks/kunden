@@ -11,7 +11,7 @@ const Cards = () => {
       <div className="py-14 lg:py-28 flex flex-col lg:flex-row gap-14">
         <div
           className="card-one"
-          data-aos="fade-down"
+          data-aos="fade-up"
           data-aos-duration="2000"
           data-aos-easing="ease-in-out"
         >
@@ -28,23 +28,8 @@ const Cards = () => {
           />
         </div>
         <div
-          className="card-two"
-          data-aos="fade-down"
-          data-aos-duration="2000"
-          data-aos-easing="ease-in-out"
-        >
-          <div>
-            <Image src={pic2} className="w-full" />
-          </div>
-          <Text className="card-head txtpurple2 pt-8" children="Advisory" />
-          <Text
-            className="m-auto font-light card-text txtdark text-lg md:text-xl text-center"
-            children="Micro loan assistance & advisory services"
-          />
-        </div>
-        <div
           className="card-three"
-          data-aos="fade-down"
+          data-aos="fade-up"
           data-aos-duration="2000"
           data-aos-easing="ease-in-out"
         >
@@ -57,6 +42,22 @@ const Cards = () => {
             children="Electronic payment management & revenue collection"
           />
         </div>
+        <div
+          className="card-two"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out"
+        >
+          <div>
+            <Image src={pic2} className="w-full" />
+          </div>
+          <Text className="card-head txtpurple2 pt-8" children="Advisory" />
+          <Text
+            className="m-auto font-light card-text txtdark text-lg md:text-xl text-center"
+            children="Micro loan assistance & advisory services"
+          />
+        </div>
+        
       </div>
     </div>
   );

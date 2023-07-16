@@ -32,14 +32,14 @@ const Footer = () => {
                 <TextLinks to="/career" className="txtdark font-light" children="Career"/>
                 <TextLinks to="/about" className="txtdark font-light" children="About Us"/>
                 <TextLinks to="#" className="txtdark font-light" children="Alaafia Foundation"/>
-                <TextLinks to="#" className="txtdark font-light" children="ZL Global Alliance"/>
+                <TextLinks to="https://zlglobalalliance.com" className="txtdark font-light" children="ZL Global Alliance"/>
             </div>
         </div>
         <div className=''>
         <Text className="txtpurple2 font-medium text-lg" children="Resources"/>
             <div className='pt-3 flex flex-col gap-3'>
                 <TextLinks to="/faq" className="txtdark font-light" children="FAQs"/>
-                <TextLinks to="#" className="txtdark font-light" children="Blog"/>
+                {/* <TextLinks to="#" className="txtdark font-light" children="Blog"/> */}
                 <TextLinks to="/contact" className="txtdark font-light" children="Got a Suggestion?"/>
             </div>
         </div>
@@ -47,7 +47,7 @@ const Footer = () => {
         <Text className="txtpurple2 font-medium text-lg" children="Contact"/>
             <div className='pt-3 flex flex-col gap-3'>
                 <TextLinks to="mailto:kundenservicesltd2015@gmail.com" className="txtdark font-light" children="kundenservicesltd2015@gmail.com"/>
-                <TextLinks to="#" className="txtdark font-light" children="Instagram"/>
+                <TextLinks to="https://instagram.com/kundenservicesltd?igshid=MzRlODBiNWFlZA" className="txtdark font-light" children="Instagram"/>
             </div>
         </div>
         </div>
