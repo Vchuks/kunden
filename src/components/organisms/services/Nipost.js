@@ -63,7 +63,7 @@ const Nipost = () => {
             />
             <Text
               className="lg:w-3/4 m-auto py-6 font-extralight txtdark text-lg lg:text-2xl"
-              children="We are in the business of empowering youths to achieve their dreams by assisting with loans and financial benefits. We did it in Kaduna State!"
+              children="We are in the business of empowering people to achieve their dreams by assisting with loans and financial benefits to setup their businesses. We did it in Kaduna State!"
             />
           </div>
         </div>

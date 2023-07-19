@@ -1,10 +1,8 @@
 import React from "react";
 import Text from "../../atom/Text";
 import Image from "../../atom/Image";
-// import TextLinks from '../../atom/TextLinks'
 import rate from "../../../images/rate.png";
-import { Player } from "@lottiefiles/react-lottie-player";
-import cardlot from "../../../images/card motion.json";
+import cardlot from "../../../images/NEW-CARDdark--GIF.gif";
 
 const HeaderService = () => {
   return (
@@ -32,14 +30,7 @@ const HeaderService = () => {
         </div>
         <div className="w-full lg:w-8/12 flex justify-between" 
         >
-          <Player
-            autoplay
-            loop
-            src={cardlot}
-            style={{ height: "100%", width: "100%" }}
-          >
-          </Player>
-          {/* <Image src={cardlot} className="h-38"/> */}
+          <Image src={cardlot} className="w-full"/>
         </div>
       </div>
     </>

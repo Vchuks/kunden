@@ -13,7 +13,7 @@ import pic8 from '../../../images/ZLGA LOGO 1.png'
 const Partners = () => {
   return (
     <div className='pad bg-white'>
-      <Text className="solution global w-max m-auto text-xl lg:text-3xl lg:pt-20" children="Our Global Partners" data-aos="zoom-in-down"
+      <Text className="solution global w-max m-auto text-xl lg:text-3xl pt-10 lg:pt-20" children="Our Global Partners" data-aos="zoom-in-down"
           data-aos-duration="2000"
           data-aos-easing="ease-in-out"/>
       <div data-aos="zoom-in-down"
