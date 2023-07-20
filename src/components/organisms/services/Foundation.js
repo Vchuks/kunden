@@ -17,7 +17,7 @@ const Foundation = () => {
         <div className='w-full'>
             <div className='hidden lg:block w-20'><Image src={img1} className=""/></div>
             <Text className="found-text txtpurple2 py-10" children="Need help with Environmental Management?"/>
-            <TextLinks to="#" children={<button className='w-full md:w-72 font-medium txtpurple text-lg md:text-xl p-4 rounded-full bg-white'>Visit ZL Global Alliance</button>}/>
+            <TextLinks to="https://zlglobalalliance.com" children={<button className='w-full md:w-72 font-medium txtpurple text-lg md:text-xl p-4 rounded-full bg-white'>Visit ZL Global Alliance</button>}/>
         </div>
         <div className='w-full'><Image src={zlg} className="w-4/5 lg:w-2/3 m-auto lg:mr-0 lg:ml-auto"/></div>
       </div>

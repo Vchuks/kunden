@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import Text from "../atom/Text";
 import Input from "../atom/Input";
 import TextLinks from "../atom/TextLinks";
@@ -10,6 +10,42 @@ import twit from "../../images/carbon_logo-twitter.png";
 import yout from "../../images/ph_youtube-logo-light.png";
 
 const FormM = () => {
+  
+  const [msg, setMsg] = useState()
+  const [details, setDetails] = useState({
+      fullname: "",
+      email: "",
+      phone_number: "",
+      message:""
+  })
+
+  const handleForm =(e)=>{
+    setDetails((prevData)=>{
+      return {...prevData, [e.target.name]: e.target.value}
+      
+    })
+  }
+
+  
+  useEffect(()=>{
+    // window.addEventListener("load", function() {
+      const action="https://script.google.com/macros/s/AKfycbx-nWPsaBIQpho-o2lP-vgPRuyjxKrEVs8DE05FFBarLMIrkj8BpPeDODFXKwBPaMEVNw/exec"
+      const form = document.querySelector('#form-body');
+      const but = document.querySelector('.submit-btn');
+      
+      but.addEventListener("click", function(e) {
+        e.preventDefault();
+        const data = new FormData(form);
+        fetch(action, {
+          method: 'POST',
+          body: data,
+        })
+        .then(() => {
+          setMsg("Successful!")
+        })
+      });
+    // });
+  },[])
   return (
     <div className="flex flex-col lg:flex-row pad gap-8 md:gap-20 items-baseline mb-28">
       <div className="w-full lg:pb-20">
@@ -23,12 +59,15 @@ const FormM = () => {
             children="If there's anything that we can do to help or if you have any questions, please don't hesitate to get in touch. Note:(*) Required fields."
           />
         </div>
-        <form className=" py-3">
+        <form className=" py-3" id="form-body">
           <div className="form-inp mb-6">
             <Input
               type="text"
               placeholder="Full Name*"
               className=" outline-purple-800 w-full px-4 py-3 lg:py-5 "
+              name="fullname"
+              value={details.fullname}
+              onChange={handleForm}
             />
           </div>
           <div className="form-inp mb-6">
@@ -36,6 +75,9 @@ const FormM = () => {
               type="text"
               placeholder="Phone Number"
               className=" outline-purple-800 w-full px-4 py-3 lg:py-5 "
+              name="phone_number"
+              value={details.phone_number}
+              onChange={handleForm}
             />
           </div>
           <div className="form-inp mb-6">
@@ -43,6 +85,9 @@ const FormM = () => {
               type="email"
               placeholder="Email*"
               className=" outline-purple-800 w-full px-4 py-3 lg:py-5 "
+              name="email"
+              value={details.email}
+              onChange={handleForm}
             />
           </div>
 
@@ -52,13 +97,19 @@ const FormM = () => {
               cols=""
               rows="5"
               className=" rounded-md outline-purple-800 w-full px-4 py-3 lg:py-4 "
+              name="message"
+              value={details.message}
+              onChange={handleForm}
             ></textarea>
           </div>
+          {msg &&<p className="w-full text-xl lg:text-2xl text-green-700 text-center">{msg}</p>}
+
           <TextLinks
             to="#"
             className="flex justify-center my-12"
             children={
-              <button className="w-56 px-8 py-3 lg:py-4 rounded-full bgpurple text-white text-lg lg:text-xl">
+              <button className="w-56 submit-btn px-8 py-3 lg:py-4 rounded-full bgpurple text-white text-lg lg:text-xl" 
+              >
                 Submit
               </button>
             }
