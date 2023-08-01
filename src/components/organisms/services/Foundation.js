@@ -28,7 +28,7 @@ const Foundation = () => {
             <div className='hidden lg:block w-20'><Image src={img2} className=""/></div>
             <Text className="md:w-96 found-text text-white pt-10" children="The Alaafia Foundation"/>
             <Text className="text-white font-extralight md:text-2xl pb-10" children="This is a subsidiary of the Kunden Company to assist and empower youths to showcase their hidden treasures. "/>
-            <TextLinks to="#" children={<button className='w-full md:w-72 font-medium txtpurple text-lg md:text-xl p-4 rounded-full bg-white'>Visit Alaafia Foundation</button>}/>
+            <TextLinks to="/alaafia" children={<button className='w-full md:w-72 font-medium txtpurple text-lg md:text-xl p-4 rounded-full bg-white'>Visit Alaafia Foundation</button>}/>
         </div>
         <div className='lg:w-2/3'><Image src={alaf} className="w-full m-auto lg:mr-0 lg:ml-auto"/></div>
       </div>

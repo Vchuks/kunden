@@ -15,6 +15,7 @@ import About from './components/pages/About';
 import Career from './components/pages/Career';
 import FaqPage from './components/pages/FaqPage';
 import Contact from './components/pages/Contact';
+import Alaafia from './components/pages/Alaafia';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="faq" element={<FaqPage />}/>
         <Route path="career" element={<Career />}/>
         <Route path='contact' element={<Contact/>}/>
+        <Route path='alaafia' element={<Alaafia/>}/>
         <Route path='*' element={<p className='pad txtdark text-lg lg:text-3xl'>Page Not Found!</p>}/>
         {/* <Route path="services" element={<Services />}/>
         <Route path="infotech" element={<Infotech />}/>
